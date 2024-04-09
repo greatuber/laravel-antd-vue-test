@@ -14,3 +14,4 @@ use App\Http\Controllers\PagesController;
 */
 
 Route::get('/', [PagesController::class, 'index']);
+Route::get('/orders-paginated', [PagesController::class, 'ordersPaginated']);
